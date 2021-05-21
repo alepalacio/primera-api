@@ -9,7 +9,7 @@ _Estudio programación y trabajo tiempo parcial._
 ## ¿Por qué debo ser acreedor a esta beca?
 _Los cambios que estamos viviendo de manera acelerada, nos hacen comprender (de una manera u otra), que debemos adaptarnos y reunir las herramientas necesarias para enfrentar los nuevos retos que se presentan:_
 
-_Actualmente me encuentro en Buenos Aires, Argentina, dónde desde hace más de 6 meses he estado realizando estudios de programación de manera autodidacta, empezando con HTML5, CSS, JavaScript, y actualmente NodeJs (JS en backend) y Python, donde mi real aspiración es poder ser desarrollador backend, dominando lenguajes como Python y JS._
+_Actualmente me encuentro en Buenos Aires, Argentina, dónde desde hace varios meses he estado realizando estudios de programación de manera autodidacta, empezando con HTML5, CSS, JavaScript, y actualmente NodeJs (JS en backend) y Python, donde mi real aspiración es poder ser desarrollador backend, dominando lenguajes como Python y JS._
 
 _Como sabrán, la situación económica global es bastante cuesta arriba, a eso hay que sumarle la situación particular en Argentina que se ha ido degradando con el pasar del tiempo, por lo que mi trabajo actual me permite poder llevar a cabo mi manutención en el país, y demás requerimientos, pero cursar estudios accediendo por medio de un pago se me hace realmente imposible._
 
@@ -21,7 +21,9 @@ _De antemano gracias por la oportunidad._
 
 ---
 # Ejercicio de área: Backend.
-## "Debes subir una pequeña API con 2 endpoints (Guardar datos de la mascota y borrar datos de la mascota) con Django Rest Framework o NodeJS"
+
+## "Debes subir una pequeña API con 2 endpoints (Guardar datos de la mascota y borrar datos de la mascota) con Django Rest Framework o NodeJS."
+
 ### Requisitos: 
 _Debes tener instalado:_
 * **Node.js** https://nodejs.org/es/
@@ -32,8 +34,15 @@ _Debes tener instalado:_
 * **Morgan** https://www.npmjs.com/package/morgan
 
 ---
+## URL del repositorio en GitHub:
+* https://github.com/alepalacio/primera-api
+
+## URL de Heroku:
+* https://sleepy-scrubland-08045.herokuapp.com/pets
+
 ## Endpoints:
-* **POST:** /pets --- _Permite guardar una nueva mascota con el siguiente formato JSON:_
+1. **POST:** 
+* https://sleepy-scrubland-08045.herokuapp.com/pets --- _Permite guardar una nueva mascota con el siguiente formato JSON:_
 ```
 {
 	"name": "Perrito",
@@ -42,6 +51,9 @@ _Debes tener instalado:_
     "image_url: "https://es.wikipedia.org/wiki/Galgo_ingl%C3%A9s"
 }
 ```
-* **GET:** /pets --- _Devuelve las mascotas guardadas._
-* **DELETE:** /pets/:id _Donde :id va a ser la ID de la mascota guardada que queremos eliminar._
+2. **GET:** 
+* https://sleepy-scrubland-08045.herokuapp.com/pets --- _Devuelve las mascotas guardadas._
+
+3. **DELETE:** 
+* https://sleepy-scrubland-08045.herokuapp.com/pets/:id ---  _Donde :id va a ser la ID de la mascota guardada que queremos eliminar._
 ---
